@@ -9,6 +9,9 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  // username : kminchelle
+  // password : 0lelplR
+
   // hooks
   const dispatch = useDispatch();
   const {userData, isLoading} = useSelector(state => state.auth);
